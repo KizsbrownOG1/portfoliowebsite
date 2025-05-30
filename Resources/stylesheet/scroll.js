@@ -39,11 +39,10 @@ ScrollReveal().reveal(".body3text",{
 
 ScrollReveal().reveal(".myprofile2" , {
     opacity:0,
-    distance:"150",
     distance:"30px",
     duration:1000,
     easing:"ease-in-out",
-    origin: "right",
+    origin: "top",
     delay:700,
 });
 
@@ -59,11 +58,10 @@ ScrollReveal().reveal(".ar" , {
 
 ScrollReveal().reveal(".myprofile3" , {
     opacity:0,
-    distance:"150",
     distance:"30px",
     duration:1000,
     easing:"ease-in-out",
-    origin: "right",
+    origin: "top",
     delay:700,
 });
 

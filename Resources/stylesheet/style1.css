@@ -1,5 +1,24 @@
  
-    
+    @media screen and (min-width:360px)
+    {
+       .myprofile
+      {
+        width:20.5em;
+      }
+
+      
+      .myprofile2
+      {
+        width:20.5em;
+      }
+
+      
+      .myprofile3
+      {
+        width:20.5em;
+      }
+
+    }
     
     @media screen and (min-width:400px)
     {
@@ -12,13 +31,13 @@
       
       .myprofile2
       {
-        width:23em;
+        width:22em;
       }
 
       
       .myprofile3
       {
-        width:23em;
+        width:22em;
       }
 
     }
@@ -41,7 +60,7 @@
       #menu
       {
         margin-left:auto;
-        margin-right:10%;
+        margin-right:15%;
       }
 
       #Home
