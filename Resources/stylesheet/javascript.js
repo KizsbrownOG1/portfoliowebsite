@@ -1,16 +1,28 @@
 
-function showslidebar()
+function showsidebar()
 {
-   const slidebar = document.querySelector('.slidebar')
-   if(slidebar.style.display === "none")
+   const sidebar = document.querySelector('.sidebar')
+   if(sidebar.style.display === "none")
    {
-    slidebar.style.display = "block"
+    sidebar.style.display = "block"
    }
    else
    {
-    slidebar.style.display = "none";
+    sidebar.style.display = "none";
    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 let slideIndex = 0;

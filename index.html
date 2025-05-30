@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chibuike || Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="Resources/images/letter-og-logo-design-initial-logotype-template-business-company-247122728.jpg">
     <link rel="stylesheet" href="Resources/stylesheet/style.css">
     <link rel="stylesheet" href="Resources/stylesheet/style1.css">
     <link rel="stylesheet" href="Resources/fontawesome-free-5.15.3-web/css/all.css">
@@ -12,95 +13,97 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
+
 <body>
 
-    <div class="container">
-
+    <!-- THE START CONTAINER FOR THE HEADER AREA -->
     <header>
-        <div class="navbar">
-         <div class="image">
-          <a style="color:white;text-decoration: none;" href="index.html"><span style="color:darkorange;">C</span>HI<span style="color:darkorange;">BUI</span>KE</a>
+        <div class="navbar-header">
+            <!-- <a href="" id="Home"><span class="colors">C</span>HI<span class="colors">BUI</span>KE</a> -->
+            <a href="index.html" id="Home"><span class="colors">C</span>HI<span class="colors">BUI</span>KE</a>
+            <a href="#Porfolio">PORFOLIO</a>
+            <a href="#About">ABOUT-ME</a>
+            <a href="#scroll-container2">PROJECTS</a>
+            <a href="#Services">SERVICES</a>
+            <a href="#contact"><button class="contact-span">CONTACT</button></a>
+            <div id="menu"><span onclick="showsidebar()" class="fa fa-bars"></div>
         </div>
 
-         <div class="inp">
-            <a class="none" href="contact.html" style="text-decoration:none;color:white;"><input type="button" value="CONTACT"></a>
-            <a href="index.html">SERVICES</a>
+        
+
+        <div class="sidebar">
+            <div class="sidebar-header">
+            <a href="index.html">PORFOLIO</a>
+            <a href="index.html">ABOUT-ME</a>
             <a href="index.html">PROJECTS</a>
-            <a class="am" id="em" href="index.html">ABOUT-ME</a>
-            <a href="index.html">PORFOLIO</a>   
-         </div>
-
-         <div class="menu" id="menu">
-            <span onclick="showslidebar()" class="fa fa-bars"><p class="p pmenu" id="p">MENU</p></span>
-         </div>
-
+            <a href="index.html">SERVICES</a>
+            <a href="contact.html"><button class="contact-span">CONTACT</button></a>
+           </div>
         </div>
 
-        <!---->
-        <div class="slidebar">
-            <div class="slideContent">
-               <a href="index.html">HOME</a>
-               <a href="index.html">PORFOLIO</a>
-               <a href="index.html">ABOUT-ME</a>
-               <a href="index.html">PROJECTS</a>
-               <a href="index.html">SERVICES</a> 
-               <a href="contact.html" style="text-decoration:none;color:white;"><input type="button" value="CONTACT"></a>
-            </div>
-   
-        </div>
+
     </header>
+     <!-- THE END CONTAINER FOR THE HEADER AREA -->
 
-         <!-- BODY CONTAIN BEGIN FROM HERE--> 
-    
-       
 
-        <div class="bodycontent">
 
-            <main>
-            <div class="body1" id="homeindex">
-                <div class="textname">
-                <h2>FULLSTACK DEVELOPER</h2>
-                </div>
 
-              <div class="imagecontent">
+
+
+    <!-- THE START CONTAINER FOR THE CONTENT AREA   -->
+    <main>
+
+
+
+        <!-- START -- FIRST DIV THAT CONTAIN THE IMAGE  -->
+        <div class="content1">
+
+             <!-- <select name="" id="">
+                <option value="en" selected>English</option>
+                <option value="fr">France</option>
+            </select> -->
+
+            <h2>FULLSTACK DEVELOPER</h2>
+            
+            <div class="profile">
                 <img src="Resources/images/letter-og-logo-design-initial-logotype-template-business-company-247122728.jpg" alt="profile">
-              </div>
+            </div>
 
-              <div class="shorttext">
+            <div class="shorttext">
                 <h3>Hello, I`m  Okafor Goodluck Chibuike</h3>
                 <p>Software developer with a passion of creating </p>
                 <p>interactive and user-friendly Website/Application, </p>
                 <p>to bring your design to life and making them functional<br>
                 <p>and make solutions to your problems.</p>
-                </div>
-
-            </div>
-
-
-
-
-
+             </div>
             
-            <div class="body2">
-                <p><a href="contact.html" style="text-decoration:none;color:white;"><input type="button" value="BOOK ME HERE"></a></p> 
-                
-            <div class="body2text">
 
-                <div class="about">
-                    <div class="myprofile">
-                        
+        </div>
+         <!-- END -- FIRST DIV THAT CONTAIN THE IMAGE -->
 
-                    </div>
-                    <ul class="b">
-                    <li><p style="font-size:12px;margin-top:4px;">23 yrs</p></li>
-                    </ul>   
-                    
-                </div>
-            </div>
 
-                 
-            <div class="body2text" id="aboutme">
 
+
+
+        <!-- TOP BUTTON  -->
+        <button class="top-button"><a href="contact.html">BOOK ME HERE</a></button>
+        <!-- BUTTON END HERE -->
+
+
+
+
+
+
+         <!-- START -- SECOND DIV THAT CONTAIN THE IMAGE -->
+        <div class="content2" id="About">
+        <div class="first-div-content">
+            <div>
+               <div class="myprofile"></div>
+                <ul class="b">
+                <li><p style="font-size:12px;margin-top:4px;">23 yrs</p></li>
+                </ul> 
+            </div>    
+            
                 <div class="about">
                     <h1>About Me</h1> 
                     <br>  
@@ -114,78 +117,82 @@
                     <br><br>
 
                     <ul class="b">
-                        <li>Frontend Development ::: <sub><span style="color:gold;"> HTML, CSS, JavaScript,BOOTSTRAP, VUE.js, React, JQuery and others.</span></sub><br></li>
-                        <li>Backend Development ::: <sub><span style="color: gold;"> JAVA, PHP, PYTHON, LARAVEL, FLASK.</span></sub><br></li>
-                        <li> Database Admistrator ::: <sub><span style="color: gold;"> PostgreSql, MySql.</span></sub><br></li>
-                        <li> Andriod UI Design ::: <sub><span style="color: gold;"> XML. [ GIT / GITHUB ]</span></sub></li>
+                        <li>Frontend Development ::: <sub><span class="color"> HTML, CSS, JavaScript,BOOTSTRAP, VUE.js, React, JQuery and others.</span></sub><br></li>
+                        <li>Backend Development ::: <sub><span class="color"> JAVA, PHP, PYTHON, LARAVEL, FLASK.</span></sub><br></li>
+                        <li> Database Admistrator ::: <sub><span class="color"> PostgreSql, MySql.</span></sub><br></li>
+                        <li> Andriod UI Design ::: <sub><span class="color"> XML. [ GIT / GITHUB ]</span></sub></li>
                     </ul>
                        
-                         <div class="infotext">
-                            HTML 
-                            <input type="range" min="1" max="50" value="49" disabled> 
-                            CSS
-                            <input type="range"  min="1" max="50" value="48" disabled>   
-                            JavaScript 
-                            <input type="range"  min="1" max="50" value="46" disabled>   
-                            PHP 
-                            <input type="range" min="1" max="50" value="47" disabled> 
-                            Vue.js 
-                            <input type="range" min="1" max="50" value="43" disabled>   
+                    <div class="infotext">
+                        HTML 
+                        <input type="range" min="1" max="50" value="49" disabled> 
+                        CSS
+                        <input type="range"  min="1" max="50" value="48" disabled>   
+                        JavaScript 
+                        <input type="range"  min="1" max="50" value="46" disabled>   
+                        PHP 
+                        <input type="range" min="1" max="50" value="47" disabled> 
+                        Vue.js 
+                        <input type="range" min="1" max="50" value="43" disabled>   
                            
-                         </div>
-                        </h2>
-                </div>
-            </div>          
-            </div>
-
-
-
-            
-            <div class="body3" id="porfolio">
-                <div class="body3text">
-                    <h1 class="bbb">Here`s what<br> you`ll<span style="color:darkorange;"> experience</span><br> when you<br> work with me</h1> 
-                     <br>
-                    <ul class="bb">
-                        <p><span class="fa fa-check" style="font-size:15px;"></span> Focus,care and dedication with each and every project.</p>
-                        <p><span class="fa fa-check" style="font-size:15px;"></span> Working directly with me,a seasoned Web professional<br>
-                            developer with<span style="color:darkorange;font-weight:bold;"> 3+ years experience.</span></p>
-                        <p><span class="fa fa-check" style="font-size:15px;"></span> No bloated agency overheads and budget.</p>
-                        <p><span class="fa fa-check" style="font-size:15px;"></span> flat fee pricing structure,so that means no surprices.</p>
-                        <p><span class="fa fa-check" style="font-size:15px;"></span> A planed tailored for your success.</p>
-                        <p><span class="fa fa-check" style="font-size:15px;"></span> An aligned developer and strategy.</p>
-                        <p><span class="fa fa-check" style="font-size:15px;"></span> A web developer partner you can trust and work with.</p><br>
-                        
-                    </ul>
-                   
-                    <button><a href="Resources/porfolioCV/CV_chibuike.docx" target="_blank" style="text-decoration:none;color:white;">VIEW CV</a></button>
-                </div>
-
-                <div class="body3text">
-                    <ul class="bb">
-                    <p><span class="fa fa-check" style="font-size:15px;"></span> To view my works visit or check my <span style="color:darkorange;font-weight: bold;">GITHUB</span> link<a href=" "> GITHUB.com</a></p>
-                    <li><p><a href="https://cybercollege.com.ng/">Cybercollege care</a></p></li>
-                    <li><p><a href="https://goodtalent.io/">Workskuad</a></p></li>
-                    <li><p><a href="https://glowhitecosmetics.com/">Glowhite Cusmetics...</a></p></li>
-                  </ul>
-                    <div class="myprofile2">
-                        
-
                     </div>
-
+                    </h2>
                 </div>
-            
+        </div>
+        </div>
+         <!-- END -- SECOND DIV THAT CONTAIN THE IMAGE -->
 
-                <center>
-                    <h1 style="color:black;margin-top:50px;">My Porfolio</h1>
-                </center>
-                  
-            
 
+        <!-- START -- THIRD DIV THAT CONTAIN THE IMAGE -->
+        <div class="content3">
+        <div class="second-div-content">
+            <div class="body3text">
+               <h1>Here`s what<br> you`ll<span style="color:darkorange;"> experience</span><br> when you<br> work with me</h1> 
+                <br>
+                 <ul class="bb">
+                    <p><span class="fa fa-check"></span> Focus,care and dedication with each and every project.</p>
+                    <p><span class="fa fa-check"></span> Working directly with me,a seasoned Web professional<br>
+                        developer with<span style="color:darkorange;font-weight:bold;"> 3+ years experience.</span></p>
+                    <p><span class="fa fa-check"></span> No bloated agency overheads and budget.</p>
+                    <p><span class="fa fa-check"></span> flat fee pricing structure,so that means no surprices.</p>
+                    <p><span class="fa fa-check"></span> A planed tailored for your success.</p>
+                    <p><span class="fa fa-check"></span> An aligned developer and strategy.</p>
+                    <p><span class="fa fa-check"></span> A web developer partner you can trust and work with.</p><br>
+                        
+                </ul>  
+                <button><a href="Resources/porfolioCV/CV_chibuike.docx" target="_blank" class="cv">VIEW CV</a></button>
             </div>
 
 
-            <div class="body4">
-                <div class="mySlides fade">
+            <div class="body3text">
+                <ul class="bb">
+                <p><span class="fa fa-check" style="font-size:15px;"></span> To view my works visit or check my
+                   <span style="color:darkorange;font-weight: bold;">GITHUB</span> link <a href="github.html"
+                   style="text-decoration:none;color:red;">MyGitHub.com</a></p>
+                <li><p><a href="https://cybercollege.com.ng/">Cybercollege care</a></p></li>
+                <li><p><a href="https://goodtalent.io/">Workskuad</a></p></li>
+                <li><p><a href="https://glowhitecosmetics.com/">Glowhite Cusmetics...</a></p></li>
+                </ul>
+                <div class="myprofile2"></div>
+
+            </div>
+            
+
+        </div>
+        </div>
+
+        <!-- END -- THIRD DIV THAT CONTAIN THE IMAGE -->
+
+        
+
+
+
+
+        <!-- START -- FORTH DIV THAT CONTAIN THE IMAGE -->
+        <div class="content4" id="Porfolio">
+
+            <h1>My Porfolio</h1>
+          <div class="mySlides fade">
                        
                     <img src="Resources/images/26570-ecommrce_backend-1024x576.jpg" width="100%">
                    <div  style="text-align: center;">
@@ -270,17 +277,25 @@
             <a class="prev" onclick="plusSlide(-1)"></a>
             <a class="next" onclick="plusSlide(1)"></a>
            
-            </div>
-                      <center> <h1 id="projects" style="font-family:Arial;">Projects</h1></center>
-            
-        <div id="scroll-container2" style="background-color:ghostwhite;">
+
+        </div>
+        <!-- END -- FORTH DIV THAT CONTAIN THE IMAGE -->
+
+
+
+        <!-- START -- FIFTH DIV THAT CONTAIN THE IMAGE -->
+        <div class="content5">
+        <h1>Projects</h1>
+
+
+        <!-- START CONTAINER FOR SCROLL-VIDEO -->
+         <div id="scroll-container2">
             <div class="main-scroll-div2">
                 <div>
                     <button class="icon2" onclick="scrollrr()">&#10094</button>
                 </div>
                 <div id="cover2">
                     <div id="scroll-images2">
-
                         
                         <div class="card2" >
                             <video height="auto" width="270px" poster="Resources/images/depositphotos_61521079-stock-photo-payroll-time-sheet-for-human.jpg" class="video" controls>
@@ -289,7 +304,6 @@
                             </video>
                            
                         </div>
-                       
                 
                         <div class="card2" >
                             <video height="auto" width="270px" poster="Resources/images/IMG-20241225-WA0000.jpg" class="video" controls>
@@ -339,199 +353,256 @@
                            
                         </div>
                        
-                        <div class="card2" >
+                        <!-- <div class="card2" >
                             <video height="auto" width="270px" poster="Resources/images/home.jpg" class="video" controls>
                                 <source src="Resources/video/vsdc-sr 2025-03-25 14-56-29.mp4" >
                                 <source src="Resources/video/vsdc-sr 2025-03-25 14-56-29.mp4">
                             </video>
                            
-                        </div>
-                       
-                       </div>
+                        </div>   -->
+                    </div>
                 </div>
-                <div>
-                    <button class="icon" onclick="scrollll()">&#10095</button>
-    
-                </div>
+            <div>
+                <button class="icon" onclick="scrollll()">&#10095</button>
+            </div>
             </div>
         </div>
+        <!-- END CONTAINER FOR SCROLL-VIDEO -->
 
-            
-            <div class="body5">
-                <div class="body5text">
-                    <h3 class="ar" style="font-weight: bold;">WORK</h3>
-                    <br>
-                    <h2 class="ar">Focus, care and<br> dedication with each<br> and every project</h2> 
-                     <br>
-                     <h3 class="ar" style="font-weight: bold;">ABOUT</h3>
-                     <br>
-                     <h2 class="ar">At the heart of what<br> i do lies a deep<br> commitment to<br> putting users first</h2> 
-                   <br>
-                   
-                    <button><a href="contact.html" style="text-decoration:none;color:white;">Book a call</a></button>
-                </div>
 
-                <div class="body5text">
-                <div class="myprofile3">
-                        
+        </div>
+        <!-- END -- FIFTH DIV THAT CONTAIN THE IMAGE -->
 
-                </div>
-                </div>
 
+
+        <!-- START -- SIX DIV THAT CONTAIN THE IMAGE -->
+        <div class="content6">
+        <div class="third-div-content">
+
+            <div class="body5text">
+                <h3 class="ar" style="font-weight: bold;">WORK</h3>
+            <br>
+                <h2 class="ar">Focus, care and<br> dedication with each<br> and every project</h2> 
+            <br>
+                <h3 class="ar" style="font-weight: bold;">ABOUT</h3>
+            <br>
+                <h2 class="ar">At the heart of what<br> i do lies a deep<br> commitment to<br> putting users first</h2> 
+            <br>       
+                <button><a href="contact.html" style="text-decoration:none;color:white;">Book a call</a></button>
             </div>
 
-            <center><h1 id="services" style="font-family:Arial;">Services I Provide</h1></center>
-    
+            <div class="body5text">
+                <div class="myprofile3"></div>
+            </div>
+
+        </div>
+
+        </div>
+        <!-- END -- SIX DIV THAT CONTAIN THE IMAGE -->
+
+
+        <div class="content7" id="Services">
+            <h1>Services I Provide</h1>
+        
         <div id="scroll-container">
           
             <div class="main-scroll-div">
                 <div>
                     <button class="icon" onclick="scrollr()">&#10094</button>
                 </div>
-                <div id="cover">
-                    <div id="scroll-images">
+            <div id="cover">
+                <div id="scroll-images">
                 
-                        <div class="card">
-                            <p class="p">
-                                <h2>Business or Corporate Websites</h2>
-                                <br><br><br>
-                                Business or corporate websites are used by companies to provide information about 
-                                their products or services, and often include pages like “About Us,” “Services,”
-                                 and “Contact Us.” Costs can vary based on the size and complexity of the site.
-                                 </p>
-                            </div>
+                <div class="card">
+                    <p class="p">
+                        <h2>Business or Corporate Websites</h2>
+                        <br><br><br>
+                        Business or corporate websites are used by companies to provide information about 
+                        their products or services, and often include pages like “About Us,” “Services,”
+                        and “Contact Us.” Costs can vary based on the size and complexity of the site.
+                        </p>
+                        </div>
 
-                            <div class="card">
-                            <p class="p">
-                                <h2>E-commerce Websites</h2>
-                                <br><br><br>
-                                E-commerce websites are designed to sell products or services online.
-                                 They require more complex features, like “shopping carts”,“ product pages”, 
-                                 and secure “payment gateways”. The cost of an e-commerce website can vary widely,
-                                  depending if it`s a small website. or a platform like Shopify or WooCommerce, 
-                                 custom-built online store.
-                                 </p>
-                            
-                        </div>
                         <div class="card">
-                                 <p class="p">
-                                    <h2>Personal or Portfolio Websites</h2>
-                                    <br><br>
-                                    Personal or portfolio websites are typically used by individuals to showcase their work,
-                                     whether that’s art, writing, design, or other projects. These websites tend to be relatively
-                                      good, usually consisting of a few pages like a home page, about page, and a page to display
-                                       the portfolio. For a basic personal website, you might only need to budget for a domain name,
-                                        hosting, and a premium theme. 
-                                        
-                                     </p>
-                        </div>
-                        <div class="card">
-                            <p class="p">
-                                <h2>News or Magazine Websites</h2>
-                                <br><br><br>
-                                News or magazine websites are content-heavy sites that require a robust CMS to manage
-                                 numerous articles, authors, and categories. They also need to handle high traffic volumes.
-                                  Costs can vary widely, “simple blog-style news site”,
-                                 “custom-designed news” or “magazine website” cost is large.
-                                 </p>
+                        <p class="p">
+                        <h2>E-commerce Websites</h2>
+                        <br><br><br>
+                        E-commerce websites are designed to sell products or services online.
+                        They require more complex features, like “shopping carts”,“ product pages”, 
+                        and secure “payment gateways”. The cost of an e-commerce website can vary widely,
+                        depending if it`s a small website. or a platform like Shopify or WooCommerce, 
+                        custom-built online store.
+                        </p>
                             
-                        </div>
-                        <div class="card">
-                            <p class="p">
-                                <h2>Blogs</h2>
-                                <br><br><br>
-                                 Blogs are websites primarily focused on written content, often structured
-                                  in a reverse chronological order.
-                                  Blogging platforms like WordPress and Blogger offer free options, but for a professional
-                                   blog with a custom
-                                   domain and no advertisements,
-                                   l designer and developer to create a custom blog.
-                                 </p>
-                            
-                        </div>
-                    </div>
                 </div>
-                <div>
-                    <button class="icon" onclick="scrolll()">&#10095</button>
-    
+                <div class="card">
+                    <p class="p">
+                        <h2>Personal or Portfolio Websites</h2>
+                        <br><br>
+                        Personal or portfolio websites are typically used by individuals to showcase their work,
+                        whether that’s art, writing, design, or other projects. These websites tend to be relatively
+                        good, usually consisting of a few pages like a home page, about page, and a page to display
+                        the portfolio. For a basic personal website, you might only need to budget for a domain name,
+                        hosting, and a premium theme.               
+                        </p>
+                </div>
+                <div class="card">
+                    <p class="p">
+                        <h2>News or Magazine Websites</h2>
+                        <br><br><br>
+                        News or magazine websites are content-heavy sites that require a robust CMS to manage
+                        numerous articles, authors, and categories. They also need to handle high traffic volumes.
+                        Costs can vary widely, “simple blog-style news site”,
+                        “custom-designed news” or “magazine website” cost is large.
+                        </p>
+                            
+                </div>
+                <div class="card">
+                    <p class="p">
+                    <h2>Blogs</h2>
+                    <br><br><br>
+                    Blogs are websites primarily focused on written content, often structured
+                    in a reverse chronological order.
+                    Blogging platforms like WordPress and Blogger offer free options, but for a professional
+                    blog with a custom
+                    domain and no advertisements,
+                    l designer and developer to create a custom blog.
+                    </p>
+            
+                </div>
                 </div>
             </div>
+                 <div>
+                    <button class="icon" onclick="scrolll()">&#10095</button>
+                </div>
+        </div>
         </div>
 
         
-        <button class="bottup" onclick=" scrotop()">Back to top</button>
 
-        </main>
+        </div>
 
-        <!--FOOTER CONTAIN BEGINS FROM HERE-->
 
-        <footer>
-    
-            <div class="body7">
-                <center>
-              <img src="Resources/images/letter-og-logo-design-initial-logotype-template-business-company-247122728.jpg" alt="logo" width="100px" height="100px">     
-               <h2 class="h">Ready to work together?</h2>
-                 <button><a href="contact.html" style="text-decoration:none;color:white;">Book a call</a></button>
-              <hr style="height:2px;border-width:0;color:white;background-color:whitesmoke;margin-left:10%;margin-right:10%;margin-bottom:60px;">
-             </center>
-             
-             <div class="flottercontainer">
-               <div class="flotter" id="move_left">
-                 <h3>Latest articles</h3>
-                 <p>Reflecting on 2024<br> with personal<br>
-                    and professional challenges</p>
-                    <hr style="height:1px;border-width:0;color:white;background-color:whitesmoke;margin-top:5px;margin-bottom:5px;">
-             
-                <p>The important of a<br> WEB developer for<br>
-                    startups</p>
-              </div>
-              
-              <div class="flotter" id="move_top">
-                <h3>Home a browser</h3>
-                 <p>Wordpress experience</p>
-                 <p>Services / contact us</p>
-                 <p>About me here</p>
-                 <p>experience </p>
-                 <p>Start a project</p>
-                 <p>Term and condition</p>
-                 <p>Privacy Policy</p>
+        <!-- BOTTOM BUTTON START HERE  -->
+        <button class="bottom-button" onclick=" scrotop()"><a>Back to top</a></button>
+        <!-- BUTTON END HERE -->
+
+
+    </main>
+    <!-- THE END CONTAINER FOR THE CONTENT AREA -->
+
+
+
+
+
+
+
+
+    <!-- THE START CONTAINER OF THE FOOTER AREA -->
+    <footer>
         
-             </div>
-
-             <div class="flotter" id="move_right">
-                <h3>Let`s talk</h3>
-                <p><a style="
-                     text-decoration:none;color:red;"
-                     href="mailto:Gchibuike1984@gmail.com">Gchibuike1984@gmail.com</a></p>
-                   <p><i><img src="Resources/images/images.png" width="20px" height=20px/>
-                    <a href="https://wa.me/message/SAMQF5RKHS7ON1" style="color:white;text-decoration:none;">+2347012780251</a></i></p>
-                
-
-             </div>
-
-            </div>
-
-             <hr style="height:2px;border-width:0;color:white;background-color:whitesmoke;margin-left:10%;margin-right:10%;">
+        <div class="content8" id="contact">
+        <center>
+            <img src="Resources/images/letter-og-logo-design-initial-logotype-template-business-company-247122728.jpg" alt="logo" width="100px" height="100px">     
+            <h2 class="h">Ready to work together?</h2>
+            <button><a href="contact.html" style="text-decoration:none;color:white;">Book a call</a></button>
+            <hr style="height:2px;border-width:0;color:white;background-color:whitesmoke;margin-left:10%;margin-right:10%;margin-bottom:60px;">
+        </center>
              
-             <center>
-                <div class="flotter2">
-                 <p>BiiT HOUSE INFORMATION TECHNOLOGY SERVICES , 14, Akinwole street, Ijegunegba Satellite Town, Lagos State.</p>
-                </div>
-  
-             </center>
+        <div class="flottercontainer">
+            <div class="flotter" id="move_left">
+            <h3>Latest articles</h3>
+            <p>Reflecting on 2024<br> with personal<br>
+                and professional challenges</p>
+            <hr style="height:1px;border-width:0;color:white;background-color:whitesmoke;margin-top:5px;margin-bottom:5px;">
+             
+            <p>The important of a<br> WEB developer for<br>
+                startups</p>
+        </div>
+              
+        <div class="flotter" id="move_top">
+            <h3>Home a browser</h3>
+            <p>Wordpress experience</p>
+            <p>Services / contact us</p>
+            <p>About me here</p>
+            <p>experience </p>
+            <p>Start a project</p>
+            <p>Term and condition</p>
+            <p>Privacy Policy</p>
+        
+        </div>
+
+        <div class="flotter" id="move_right">
+            <h3>Let`s talk</h3>
+            <p><a style="
+                text-decoration:none;color:red;"
+                href="mailto:Gchibuike1984@gmail.com">Gchibuike1984@gmail.com</a></p>
+            <p><i><img src="Resources/images/images.png" width="20px" height=20px/>
+            <a href="https://wa.me/message/SAMQF5RKHS7ON1" style="color:white;text-decoration:none;">+2347012780251</a></i></p>
+
+        </div>
+
+        </div>
+
+        <hr style="height:2px;border-width:0;color:white;background-color:whitesmoke;margin-left:10%;margin-right:10%;">
+             
+        <center>
+            <div class="flotter2">
+            <p>BiiT HOUSE INFORMATION TECHNOLOGY SERVICES , 14, Akinwole street, Ijegunegba Satellite Town, Lagos State.</p>
+            </div>
+        </center>
 
             
-            </div>
-    
-        </footer>
-
-            </div>
         </div>
-    </div>
+
+    </footer>
+    <!-- THE END CONTAINER OF THE FOOTER AREA -->
+    
+
+
+
+
+
+
+
+
+<script>
+        const translations = {
+
+            en: {
+                title : "FULLSTACK DEVELOPER"
+            },
+
+            fr: {
+                title : "Bonjour"
+            }
+        }
+
+
+        const language = document.querySelector("select");
+        console.log(language)
+
+        language.addEventListener("change", (event) => {
+            setLanguage(event.target.value)
+        })
+
+
+        const setLanguage = (lan) => {
+            if(lan == 'en')
+        {
+            console.log(lan)
+        }
+        else if(lan == 'fr')
+        {
+            console.log(lan)
+        }
+        }
+        
+    </script>
+
 
     <script src="Resources/stylesheet/javascript.js"></script>
     <script src="Resources/stylesheet/scroll.js"></script>
-    
+  
 </body>
 </html>
-

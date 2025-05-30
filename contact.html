@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chibuike || Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="Resources/images/letter-og-logo-design-initial-logotype-template-business-company-247122728.jpg">
     <link rel="stylesheet" href="Resources/stylesheet/style.css">
     <link rel="stylesheet" href="Resources/stylesheet/style1.css">
     <link rel="stylesheet" href="Resources/fontawesome-free-5.15.3-web/css/all.css">
@@ -13,111 +14,110 @@
 
 </head>
 <body>
-    <div class="container">
-        <div class="navbar">
-         <div class="image">
-          <a style="color:white;text-decoration: none;" href="index.html"><span style="color:darkorange;">C</span>HI<span style="color:darkorange;">BUI</span>KE</a>
-        </div>
 
-         <div class="inp">
-            <a class="none"><input type="button" value="CONTACT"></a>
+    <!-- THE START CONTAINER FOR THE HEADER AREA -->
+    <header>
+        <div class="navbar-header">
+            <a href="index.html" id="Home"><span class="colors">C</span>HI<span class="colors">BUI</span>KE</a>
+            <a href="index.html">PORFOLIO</a>
+            <a href="index.html">ABOUT-ME</a>
+            <a href="index.html">PROJECTS</a>
             <a href="index.html">SERVICES</a>
-            <a href="index.html">EXPERIENCE</a>
-            <a class="am" id="em" href="index.html">ABOUT-ME</a>
-            <a href="index.html">PORFOLIO</a>   
-         </div>
-
-         <div class="menu" id="menu">
-            <span onclick="showslidebar()" class="fa fa-bars"><p class="p pmenu" id="p">MENU</p></span>
-         </div>
-
+            <a href="contact.html"><button class="contact-span">CONTACT</button></a>
+            <div id="menu"><span onclick="showsidebar()" class="fa fa-bars"></div>
         </div>
 
-        <!---->
-        <div class="slidebar">
-            <div class="slideContent">
-               <a href="index.html">HOME</a>
-               <a href="index.html">PORFOLIO</a>
-               <a href="index.html">ABOUT-ME</a>
-               <a href="index.html">EXPERIENCE</a>
-               <a href="index.html">SERVICES</a> 
-               <p><input type="button" value="CONTACT"></p>  
-            </div>
-   
+        
+
+        <div class="sidebar">
+            <div class="sidebar-header">
+            <a href="index.html">PORFOLIO</a>
+            <a href="index.html">ABOUT-ME</a>
+            <a href="index.html">PROJECTS</a>
+            <a href="index.html">SERVICES</a>
+            <a href="contact.html"><button class="contact-span">CONTACT</button></a>
+           </div>
         </div>
-  
-         <!----> 
 
-         
-        <div class="bodycontent">
 
-            <div class="body8">
+    </header>
+     <!-- THE END CONTAINER FOR THE HEADER AREA -->
+
+
+
+
+
+
+
+
+     <!-- THE START CONTAINER FOR THE MAIN AREA -->
+     <main>
+
+      <div class="content9">
                
-                <div class="contacttext" id="ctt">
-                <h2>let`s collaborate</h2>
-                </div>
+          <div class="contacttext" id="ctt">
+            <h2>let`s collaborate</h2>
+          </div>
 
-                <div class="contacttext1" id="ctt">
-               <h1>Ready to work together?<br> Fill out the form <br>or book a discovery call</h1>
-              </div>
+          <div class="contacttext1" id="ctt">
+              <h1>Ready to work together?<br> Fill out the form <br>or book a discovery call</h1>
+          </div>
 
-            </div>
+      </div>
 
 
-            <div class="body9">
+      <div class="content10">
 
-            
-              <div class="Register">
-                <form method="post" action="mailto:Gchibuike1984@gmail.com"
-                 cc="sponkibrownO.G@gmail"
-                 bcc="sponkibrownO.G@gmail"
-                 enctype="text/plain"
-                 >
-                    <label for="text">full name</label><br>
-                    <input type="text" name="fullname"  placeholder="" required><br><br>
+      <div class="Register">
+          <form method="post" action="mailto:Gchibuike1984@gmail.com"
+              cc="sponkibrownO.G@gmail"
+              bcc="sponkibrownO.G@gmail"
+              enctype="text/plain">
+          <label for="text">full name</label><br>
+          <input type="text" name="fullname"  placeholder="" required><br><br>
                     
-                    <label for="email">Email address</label><br>
-                    <input type="email" name="email" placeholder="" required><br><br>
+          <label for="email">Email address</label><br>
+          <input type="email" name="email" placeholder="" required><br><br>
         
-                    <label for="tel">Phone number</label><br>
-                    <input type="tel" name="phone-number" min="11" max="11" placeholder="" required><br><br>
+          <label for="tel">Phone number</label><br>
+          <input type="tel" name="phone-number" min="11" max="11" placeholder="" required><br><br>
                      
-                    <label for="tel">Project type</label><br>
-                    <input type="text" list="message" required>
-                    <datalist id="message">
-                        <option value="Business or Corporate Websites">Business or Corporate Websites</option>
-                        <option value="E-commerce Website">E-commerce Website</option>
-                        <option value="Personal or Portfolio Websites">Personal or Portfolio Websites</option>
-                        <option value="News or Magazine Websites">News or Magazine Websites</option>
-                        <option value="Blogs">Blogs</option>
-                        <option value="Others">Others</option>
-                    </datalist>
+          <label for="tel">Project type</label><br>
+          <input type="text" list="message" required>
+          <datalist id="message">
+              <option value="Business or Corporate Websites">Business or Corporate Websites</option>
+              <option value="E-commerce Website">E-commerce Website</option>
+              <option value="Personal or Portfolio Websites">Personal or Portfolio Websites</option>
+              <option value="News or Magazine Websites">News or Magazine Websites</option>
+              <option value="Blogs">Blogs</option>
+              <option value="Others">Others</option>
+          </datalist>
 
-                    <br><br>
+           <br><br>
                        
-                    <label for="tel">Discovery Call Date</label><br>
-                     <input type="date" class="date" id="date" onclick="hiddenDiv()" required/>
+          <label for="tel">Discovery Call Date</label><br>
+          <input type="date" class="date" id="date" onclick="hiddenDiv()" required/>
 
-                     <center>
-                        <div class="hidden" id="hide">
-                        <p><span class="fa fa-clock"></span> 30 min</p>
-                        <p><span class="fa fa-video"></span> web conferencing details provided upon confimation</p>
-                     </div>
-                    </center>
+          <center>
+          <div class="hidden" id="hide">
+                <p><span class="fa fa-clock"></span> 30 min</p>
+                <p><span class="fa fa-video"></span> web conferencing details provided upon confimation</p>
+                </div>
+          </center>
 
 
-                    <br>
-                    <textarea id="hide"
-                     style="width:77%" name="message" rows="8" cols="40" placeholder="Discription" required>
+            <br>
+            <textarea id="hide"
+                style="width:77%;" name="message" rows="8" cols="40" placeholder="Discription" required>
 
-                    </textarea>
+            </textarea>
 
                     
-                    <br><br>
-                    <center>
-                    <input type="submit" value="submit" id="submit"/>
-                   </center>
-                </form>
+            <br><br>
+            <center>
+              <input type="submit" value="submit" id="submit"/>
+            </center>
+              </form>
                 
         
             </div>
@@ -126,73 +126,85 @@
             </div>
 
 
+      
+
+
+
+     </main>
+     <!-- THE END CONTAINER FOR THE MAIN AREA -->
+
+
+
+    <!-- BOTTOM BUTTON START HERE  -->
+        <button class="bottom-button" onclick=" scrotop()"><a>Back to top</a></button>
+    <!-- BUTTON END HERE -->
+
+
+
+
+     <!-- THE START CONTAINER OF THE FOOTER AREA -->
+    <footer>
         
-            <button class="bottup" onclick=" scrotop()">Back to top</button>
-    
-    
-            <div class="body7">
-                <center>
-              <img src="Resources/images/letter-og-logo-design-initial-logotype-template-business-company-247122728.jpg" alt="logo" width="100px" height="100px">     
-               <h2 class="h">Ready to work together?</h2>
-                 <button><a href="contact.html" style="text-decoration:none;color:white;">Book a call</a></button>
-              <hr style="height:2px;border-width:0;color:white;background-color:whitesmoke;margin-left:10%;margin-right:10%;margin-bottom:60px;">
-             </center>
+        <div class="content8">
+        <center>
+            <img src="Resources/images/letter-og-logo-design-initial-logotype-template-business-company-247122728.jpg" alt="logo" width="100px" height="100px">     
+            <h2 class="h">Ready to work together?</h2>
+            <button><a href="contact.html" style="text-decoration:none;color:white;">Book a call</a></button>
+            <hr style="height:2px;border-width:0;color:white;background-color:whitesmoke;margin-left:10%;margin-right:10%;margin-bottom:60px;">
+        </center>
              
-             <div class="flottercontainer">
-               <div class="flotter" id="move_left">
-                 <h3>Latest articles</h3>
-                 <p>Reflecting on 2024<br> with personal<br>
-                    and professional challenges</p>
-                    <hr style="height:1px;border-width:0;color:white;background-color:whitesmoke;margin-top:5px;margin-bottom:5px;">
+        <div class="flottercontainer">
+            <div class="flotter" id="move_left">
+            <h3>Latest articles</h3>
+            <p>Reflecting on 2024<br> with personal<br>
+                and professional challenges</p>
+            <hr style="height:1px;border-width:0;color:white;background-color:whitesmoke;margin-top:5px;margin-bottom:5px;">
              
-                <p>The important of a<br> WEB developer for<br>
-                    startups</p>
-              </div>
+            <p>The important of a<br> WEB developer for<br>
+                startups</p>
+        </div>
               
-              <div class="flotter" id="move_top">
-                <h3>Home a browser</h3>
-                 <p>Wordpress experience</p>
-                 <p>Services / contact us</p>
-                 <p>About me here</p>
-                 <p>experience </p>
-                 <p>Start a project</p>
-                 <p>Term and condition</p>
-                 <p>Privacy Policy</p>
+        <div class="flotter" id="move_top">
+            <h3>Home a browser</h3>
+            <p>Wordpress experience</p>
+            <p>Services / contact us</p>
+            <p>About me here</p>
+            <p>experience </p>
+            <p>Start a project</p>
+            <p>Term and condition</p>
+            <p>Privacy Policy</p>
         
-             </div>
+        </div>
 
-             <div class="flotter" id="move_right">
-                <h3>Let`s talk</h3>
-                <p><a style="
-                     text-decoration:none;color:red;"
-                     href="mailto:Gchibuike1984@gmail.com">Gchibuike1984@gmail.com</a></p>
-                   <p><i><img src="Resources/images/images.png" width="20px" height=20px/>
-                    <a href="https://wa.me/message/SAMQF5RKHS7ON1" style="color:white;text-decoration:none;">+2347012780251</a></i></p>
-                   <p></p>
-                   <p></p>
+        <div class="flotter" id="move_right">
+            <h3>Let`s talk</h3>
+            <p><a style="
+                text-decoration:none;color:red;"
+                href="mailto:Gchibuike1984@gmail.com">Gchibuike1984@gmail.com</a></p>
+            <p><i><img src="Resources/images/images.png" width="20px" height=20px/>
+            <a href="https://wa.me/message/SAMQF5RKHS7ON1" style="color:white;text-decoration:none;">+2347012780251</a></i></p>
 
-             </div>
+        </div>
 
-            </div>
+        </div>
 
-             <hr style="height:2px;border-width:0;color:white;background-color:whitesmoke;margin-left:10%;margin-right:10%;">
+        <hr style="height:2px;border-width:0;color:white;background-color:whitesmoke;margin-left:10%;margin-right:10%;">
              
-             <center>
-                <div class="flotter2">
-                 <p>BiiT HOUSE INFORMATION TECHNOLOGY SERVICES , 14, Akinwole street, Ijegunegba Satellite Town, Lagos State.</p>
-                </div>
-  
-             </center>
+        <center>
+            <div class="flotter2">
+            <p>BiiT HOUSE INFORMATION TECHNOLOGY SERVICES , 14, Akinwole street, Ijegunegba Satellite Town, Lagos State.</p>
+            </div>
+        </center>
 
             
-            </div>
-        
-         
-    </div>
+        </div>
+
+    </footer>
+    <!-- THE END CONTAINER OF THE FOOTER AREA -->
+    
 
 
-    </div>
-
+            
     
     <script src="Resources/stylesheet/javascript.js"></script>
     <script src="Resources/stylesheet/scroll.js"></script>

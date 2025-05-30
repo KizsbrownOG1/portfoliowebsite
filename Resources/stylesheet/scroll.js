@@ -1,14 +1,4 @@
 
-ScrollReveal().reveal(".textname" , {
-    opacity:0,
-    distance:"5px",
-    duration:1000,
-    scale:1,
-    origin: "top",
-    easing:"ease-in-out",
-});
-
-
 ScrollReveal().reveal(".shorttext" , {
     opacity:0,
     distance:"20px",
@@ -17,6 +7,16 @@ ScrollReveal().reveal(".shorttext" , {
     delay:500,
 });
 
+
+ScrollReveal().reveal(".myprofile" , {
+    opacity:0,
+    distance:"30px",
+    duration:1000,
+    scale:1,
+    origin: "top",
+    easing:"ease-in-out",
+    delay:500,
+});
 
 ScrollReveal().reveal(".about" , {
     opacity:0,
@@ -28,26 +28,14 @@ ScrollReveal().reveal(".about" , {
 });
 
 
-
-ScrollReveal().reveal(".bbb" , {
+ScrollReveal().reveal(".body3text",{
     opacity:0,
     distance:"30px",
     duration:1000,
     easing:"ease-in-out",
     origin: "top",
     delay:500,
-});
-
-
-ScrollReveal().reveal(".bb" , {
-    opacity:0,
-    distance:"30px",
-    duration:1000,
-    easing:"ease-in-out",
-    origin: "top",
-    delay:500,
-});
-
+})
 
 ScrollReveal().reveal(".myprofile2" , {
     opacity:0,
@@ -87,17 +75,6 @@ ScrollReveal().reveal(".h" , {
     origin: "top",
     easing:"ease-in-out",
 });
-
-
-ScrollReveal().reveal("#ctt" , {
-    opacity:0,
-    distance:"5px",
-    duration:1000,
-    scale:1,
-    origin: "top",
-    easing:"ease-in-out",
-});
-
 
 
 ScrollReveal().reveal("#move_left" , {
@@ -143,5 +120,15 @@ ScrollReveal().reveal(".flotter2" , {
     easing:"ease-in-out",
 });
 
+
+
+ScrollReveal().reveal("#ctt" , {
+    opacity:0,
+    distance:"5px",
+    duration:1000,
+    scale:1,
+    origin: "top",
+    easing:"ease-in-out",
+});
 
 
