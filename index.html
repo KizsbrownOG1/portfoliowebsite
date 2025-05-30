@@ -21,11 +21,11 @@
         <div class="navbar-header">
             <!-- <a href="" id="Home"><span class="colors">C</span>HI<span class="colors">BUI</span>KE</a> -->
             <a href="index.html" id="Home"><span class="colors">C</span>HI<span class="colors">BUI</span>KE</a>
-            <a href="#Porfolio">PORFOLIO</a>
-            <a href="#About">ABOUT-ME</a>
-            <a href="#scroll-container2">PROJECTS</a>
-            <a href="#Services">SERVICES</a>
-            <a href="#contact"><button class="contact-span">CONTACT</button></a>
+            <a href="#Porfolio" id="porfolio">PORFOLIO</a>
+            <a href="#About" id="about-me">ABOUT-ME</a>
+            <a href="#scroll-container2" id="projects">PROJECTS</a>
+            <a href="#Services" id="service">SERVICES</a>
+            <a href="#contact" id="contact"><button class="contact-span">CONTACT</button></a>
             <div id="menu"><span onclick="showsidebar()" class="fa fa-bars"></div>
         </div>
 
@@ -33,11 +33,11 @@
 
         <div class="sidebar">
             <div class="sidebar-header">
-            <a href="index.html">PORFOLIO</a>
-            <a href="index.html">ABOUT-ME</a>
-            <a href="index.html">PROJECTS</a>
-            <a href="index.html">SERVICES</a>
-            <a href="contact.html"><button class="contact-span">CONTACT</button></a>
+            <a href="index.html" id="porfolios">PORFOLIO</a>
+            <a href="index.html" id="about-mes">ABOUT-ME</a>
+            <a href="index.html" id="projects">PROJECTS</a>
+            <a href="index.html" id="services">SERVICES</a>
+            <a href="contact.html" id="contacts"><button class="contact-span">CONTACT</button></a>
            </div>
         </div>
 
@@ -57,13 +57,14 @@
 
         <!-- START -- FIRST DIV THAT CONTAIN THE IMAGE  -->
         <div class="content1">
+<!-- 
+    <select onchange="setLanguage(this.value)">
+        <option value="en">English</option>
+        <option value="fr">French</option>
+    </select>
+ -->
 
-             <!-- <select name="" id="">
-                <option value="en" selected>English</option>
-                <option value="fr">France</option>
-            </select> -->
-
-            <h2>FULLSTACK DEVELOPER</h2>
+            <h2 id="h2">FULLSTACK DEVELOPER</h2>
             
             <div class="profile">
                 <img src="Resources/images/letter-og-logo-design-initial-logotype-template-business-company-247122728.jpg" alt="profile">
@@ -167,7 +168,7 @@
             <div class="body3text">
                 <ul class="bb">
                 <p><span class="fa fa-check" style="font-size:15px;"></span> To view my works visit or check my
-                   <span style="color:darkorange;font-weight: bold;">GITHUB</span> link <a href="github.html"
+                   <span style="color:darkorange;font-weight: bold;">GITHUB</span> link <a href="https://github.com/Chibuike1984"
                    style="text-decoration:none;color:red;">MyGitHub.com</a></p>
                 <li><p><a href="https://cybercollege.com.ng/">Cybercollege care</a></p></li>
                 <li><p><a href="https://goodtalent.io/">Workskuad</a></p></li>
@@ -562,45 +563,7 @@
 
 
 
-
-
-
-
-<script>
-        const translations = {
-
-            en: {
-                title : "FULLSTACK DEVELOPER"
-            },
-
-            fr: {
-                title : "Bonjour"
-            }
-        }
-
-
-        const language = document.querySelector("select");
-        console.log(language)
-
-        language.addEventListener("change", (event) => {
-            setLanguage(event.target.value)
-        })
-
-
-        const setLanguage = (lan) => {
-            if(lan == 'en')
-        {
-            console.log(lan)
-        }
-        else if(lan == 'fr')
-        {
-            console.log(lan)
-        }
-        }
-        
-    </script>
-
-
+    <script src="Resources/stylesheet/multilanguage.js"></script>
     <script src="Resources/stylesheet/javascript.js"></script>
     <script src="Resources/stylesheet/scroll.js"></script>
   
