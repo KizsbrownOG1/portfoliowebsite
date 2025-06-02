@@ -105,6 +105,12 @@
         display:block;
       }
 
+      #hide
+      {
+        width:77%;
+      }
+
+
     }
 
 
@@ -156,6 +162,11 @@
         margin-right:auto;
         margin-left:10%;
       } 
+
+
+
+
+
     
     
    }
@@ -172,6 +183,57 @@
 
     
    }
+
+
+   
+
+
+   @media screen and (width:1024px) {    
+      #hide
+      {
+        width:72.5%;
+      }
+
+      .hidden{
+        width:72.5%;
+      }
+
+   }
+
+   
+   @media screen and (width:820px) {    
+      #hide
+      {
+        width:73%;
+      }
+
+      .hidden{
+        width:73%;
+      }
+
+   }
+
+   
+   @media screen and (width:768px) {    
+      #hide
+      {
+        width:73%;
+      }
+
+      .hidden{
+        width:73%;
+      }
+
+   }
+
+
+
+
+
+
+
+   
+
      @media screen and (min-width:768px) {
 
             
@@ -186,6 +248,18 @@
         display:flex;
         flex-flow:row;
       }
+
+                  
+      .Register{
+        width:50%;
+        margin:auto;
+        height:auto;
+        padding-bottom:5%; 
+        padding-top:5%;
+        background-color:whitesmoke; 
+
+      }
+
 
 
 

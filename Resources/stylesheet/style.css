@@ -1026,7 +1026,7 @@ color:black;
 }
       
 .Register{
-  width:85%;
+  width:90%;
   margin-left:5%;
   margin-right:5%;
   height:auto;
@@ -1061,22 +1061,23 @@ label{
 }
 
 textarea{
-  width:72%;
+  width:71%;
   margin-left:15%;
   margin-right:13%;
   font-size:15px;
 }
 
+
 #submit{
   background-color:gold;
   width:50%;
-  margin-left:30%;
-  margin-right:20%;
-  height:40px;
+  margin-left:27%;
+  margin-right:22%;
+  height:50px;
   border:none;
   outline:none;
   color:white;
-  font-size:15px;
+  font-size:20px;
   transition:0.7s;
 }
 
@@ -1089,7 +1090,7 @@ color:white;
   display:none;
   background-color:red;
   color: white;
-  width:77%;
+  width:71%;
   margin-top:5px;
   margin-left:15%;
   margin-right:13%;
