@@ -1,9 +1,6 @@
 
 function showsidebar()
 {
-  
-window.onclick = function(event){
-
   const sidebar = document.getElementById('sidebar');
   if(sidebar.classList.contains('active'))
   {
@@ -20,7 +17,15 @@ window.onclick = function(event){
   //  {
   //   sidebar.style.display = "none";
   //  }
-}
+  window.onclick = function(event){
+    const sidebar = document.getElementById('sidebar');
+    const menu = document.getElementById('menu');
+
+    if(!sidebar.contains(event.target) && !menu.contains(event.target))
+    {
+      sidebar.classList.remove('active')
+    }
+ }
 
   
 }
