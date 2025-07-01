@@ -1,16 +1,30 @@
 
 function showsidebar()
 {
-   const sidebar = document.querySelector('.sidebar')
-   if(sidebar.style.display === "none")
-   {
-    sidebar.style.display = "block"
-   }
-   else
-   {
-    sidebar.style.display = "none";
-   }
+  
+window.onclick = function(event){
+
+  const sidebar = document.getElementById('sidebar');
+  if(sidebar.classList.contains('active'))
+  {
+    sidebar.classList.remove('active');
+  }else{
+    sidebar.classList.add('active');
+  }
+  //  const sidebar = document.querySelector('.sidebar')
+  //  if(sidebar.style.display === "none")
+  //  {
+  //   sidebar.style.display = "block"
+  //  }
+  //  else
+  //  {
+  //   sidebar.style.display = "none";
+  //  }
 }
+
+  
+}
+
 
 
 
