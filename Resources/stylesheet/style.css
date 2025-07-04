@@ -372,7 +372,7 @@ body
 
 .content3 button{
   width:250px;
-  height:35px;
+  height:45px;
   background:linear-gradient( to right ,yellow,black,gold);
   color:black;
   border:none;
@@ -399,7 +399,7 @@ body
 }
 
 .bb{
-  list-style-type:circle;
+  list-style-type:none;
   font-size:20px;
   line-height:35px;
 }
@@ -409,7 +409,6 @@ body
   color:white;
   text-decoration:none;
 }
-
 
 
 .body3text{
